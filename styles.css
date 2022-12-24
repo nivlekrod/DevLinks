@@ -26,6 +26,7 @@
 
 body {
     background: var(--bg-url) no-repeat top center/cover;
+    height: 100vh;
 }
 
 body * {
@@ -34,7 +35,8 @@ body * {
 }
 
 #content {
-    width: 22.5em;
+    width: 100%;
+    max-width: 36.75em;
     margin: 3.5em auto 0;
 
     padding: 0 1.5em;
