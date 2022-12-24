@@ -157,3 +157,13 @@ footer {
     text-align: center;
     font-size: 0.8em;
 }
+
+/*media queries*/
+@media (min-width: 43.75em) {
+    :root {
+        --bg-url: url(./assets/bg-desktop-dark.jpg);
+    }
+    .light {
+        --bg-url: url(./assets/bg-desktop-light.jpg);
+    }
+}
